@@ -1,7 +1,7 @@
 create table customer(
  customer_id varchar(20) primary key,
   customer_name varchar(20) not null,
-	customer_tel numeric
+   customer_tel numeric
 );
 create table product(
 	product_id varchar (20) primary key,
